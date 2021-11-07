@@ -46,9 +46,9 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" runat="server" href="~/">ISRI GROUP 4<asp:Image ID="Image1" runat="server" Height="31px" ImageUrl="https://www.google.com/imgres?imgurl=https%3A%2F%2Fe7.pngegg.com%2Fpngimages%2F549%2F560%2Fpng-clipart-computer-icons-login-scalable-graphics-email-accountability-blue-logo-thumbnail.png&amp;imgrefurl=https%3A%2F%2Fwww.pngegg.com%2Fes%2Fpng-wwohk&amp;tbnid=OHAoJiBPA-ky8M&amp;vet=12ahUKEwjqpbyr4Yb0AhUBDd8KHZ-zDMkQMygFegUIARC0AQ..i&amp;docid=Y0GnpzqkbjqReM&amp;w=348&amp;h=348&amp;itg=1&amp;q=login&amp;hl=es-419&amp;ved=2ahUKEwjqpbyr4Yb0AhUBDd8KHZ-zDMkQMygFegUIARC0AQ" Width="37px" />
-                    </a>
-                &nbsp;</div>
+                    
+                    <a class="navbar-brand" runat="server" href="~/">ISRI GROUP 4</a>&nbsp;</div>
+                <p><asp:Image ID="Image2" runat="server" Height="54px" Width="37px" ImageUrl="https://www.ugb.edu.sv/images/2017/03/24/logo-ugb-vertical.png" /></p>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <li><a runat="server" href="~/">Inicio</a></li>
