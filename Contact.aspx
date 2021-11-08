@@ -1,17 +1,27 @@
 ﻿<%@ Page Title="Contact" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="Grupo4_PaginaWeb.Contact" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-    <h2><%: Title %>.</h2>
-    <h3>Your contact page.</h3>
+    <h2><%: Title %>Paguina de AYUDA </h2>
+    <p>Correos de consultas </p>
     <address>
-        One Microsoft Way<br />
-        Redmond, WA 98052-6399<br />
-        <abbr title="Phone">P:</abbr>
-        425.555.0100
+        Correo1: <a href="mailto:USIS034721@ugb.edu.sv">USIS043721@ugb.edu.sv</a>
     </address>
-
     <address>
-        <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-        <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-    </address>
+        Correo2: <a href="mailto:USIS035021@ugb.edu.sv">USIS035021@ugb.edu.sv</a></address>
+    <address>
+        <a href="mailto:Correo3:USIS03492@ugb.edu.sv">Correo3: USIS034921@ugb.edu.sv</a></address>
+    <address>
+        <a href="mailto:Correo4:USIS045421@ugb.edu.sv">Correo4: USIS045421@ugb.edu.sv</a></address>
+    <address>
+        <a href="mailto:Correo5:USIS050021@ugb.edu.sv">Correo5:USIS050021@ugb.edu.sv</a></address>
+    <address>
+        <a href="mailto:Correo6:USIS936021@ugb.edu.sv">Correo6:USIS936021@ugb.edu.sv</a></address>
+    <address>
+        &nbsp;</address>
+    <address>
+        &nbsp;</address>
+    <address>
+        &nbsp;</address>
+    <address>
+        &nbsp;</address>
 </asp:Content>
