@@ -53,8 +53,8 @@
                     <ul class="nav navbar-nav">
                         <li><a runat="server" href="~/">Inicio</a></li>
                         <li><a runat="server" href="~/About">Acerca de</a></li>
-                        <li><a runat="server" href="~/Contact">Agregar Usuarios</a></li>
-                         <li><a runat="server" href="~/Login">Iniciar Sesion</a></li>
+                        <li><a runat="server" href="~/Contact">AYUDA</a></li>
+                         
 
                     </ul>
                     <asp:LoginView runat="server" ViewStateMode="Disabled">
@@ -78,10 +78,10 @@
         </div>
         <div class="container body-content">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
-                 <h2>Supuesta Tienda</h2>
-                <h6>ISRI</h6>
+                 <h2>&nbsp;</h2>
+                <h6>&nbsp;</h6>
               
-                    <p> <asp:Button ID="Button2" runat="server" Text="No se que hacer" /></p>
+                    <p> &nbsp;</p>
                 
             </asp:ContentPlaceHolder>
             
