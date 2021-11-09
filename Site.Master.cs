@@ -69,13 +69,50 @@ namespace Grupo4_PaginaWeb
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            
+            Menu m1 = new Menu();
+            MenuItem mi1 = new MenuItem();
+            MenuItem mi2 = new MenuItem();
+
+            mi1.Text = "Ordenes";
+            mi1.Value = "1";
+            mi2.Value = "2";
+            mi2.Text = "Colaboradores";
+
+            m1.Items.Add(mi1);
+            m1.Items.Add(mi2);
+            m1.DynamicHorizontalOffset = 2;
+
+            m1.BackColor = System.Drawing.Color.CadetBlue;
+            m1.BorderWidth = 2;
+            m1.BorderColor = System.Drawing.Color.Blue;
+            m1.Orientation = Orientation.Vertical;
+
+            m1.DynamicMenuItemStyle.BorderStyle = BorderStyle.Outset;
+            m1.MenuItemClick += new MenuEventHandler(m1_MenuItemClick);
+            Page.Form.Controls.Add(m1);
+
         }
+
+        public void m1_MenuItemClick(object sender, MenuEventArgs e)
+        {
+            if (e.Item.Value == "1")
+            {
+
+
+            }
+            else if (e.Item.Value == "2")
+            {
+
+            }
+        }
+    
 
         protected void Unnamed_LoggingOut(object sender, LoginCancelEventArgs e)
         {
             Context.GetOwinContext().Authentication.SignOut(DefaultAuthenticationTypes.ApplicationCookie);
         }
-    }
+    
+
+     }
 
 }
